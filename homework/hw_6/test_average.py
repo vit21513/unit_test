@@ -31,7 +31,7 @@ def test_empty_list():
 
 
 def test_find_average_type():
-    "тест на пустой список"
+    "тест на некорректый аргумент"
     lst = '1,2,3,4,5'
     with pytest.raises(TypeError):
         assert Average_two_list(lst, [])
